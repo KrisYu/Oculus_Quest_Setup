@@ -1,4 +1,4 @@
-# Unity + Oculus Quest Input
+# Action based Rig Input
 
 
 Summerize the previous steps we have done to setup the Device based Rig:
@@ -80,7 +80,11 @@ Build and Run, click the 'A' and 'X' button:
 
 ![](images/action_rig_output.png)
 
-It works!
+It works! 
+
+The whole project: [VR_app](VR_app)
+
+
 
 
 
