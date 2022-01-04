@@ -1,5 +1,7 @@
 # ReadMe
 
+Showing how to setup Oculus Quest development with Unity on Mac platform using the Android App mode.
+
 ## prerequisite
 
 ### Oculus Quest
@@ -22,8 +24,8 @@ Install Unity Hub, from the Unity Hub install a LTS Unity, such as 2020.3.25f1. 
 ### Android App
 
 - Create a project, add something for visual reference( such as plane and cube)
-- Menu | File | Build Settings | Android | Switch Platform
-- Menu | File | Build Settings | Android | Run Device, choose the connected Oculus Quest, Build and Run
+- File | Build Settings | Android | Switch Platform
+- File | Build Settings | Android | Run Device, choose the connected Oculus Quest, Build and Run
 
 ![](images/build_settings.png)
 
@@ -34,8 +36,8 @@ At this stage, an Android App successfully run on the Oculus Quest. It is not VR
 
 ###  VR it
 
-- Menu | Window | Package Manager | Packages swith to Unity Registry | search XR | Install XR Plugin Management
-- Menu | Edit | Project Settings | XR Plyin-in Management | Android tab | select Oculus
+- Window | Package Manager | Packages swith to Unity Registry | search XR | Install XR Plugin Management
+- Edit | Project Settings | XR Plyin-in Management | Android tab | select Oculus
 
 ![](images/xr_plugin_management.png)
 
@@ -46,8 +48,8 @@ Build and Run again, we can see it already kind of VR, but we cannot see the con
 
 ### Controller showing 
 
-- Menu | Edit | Project Settings | Package Manager | Enable Preview Packages
-- Menu | Window | Package Manager | Packages swith to Unity Registry | search XR | Install XR Interaction ToolKit
+- Edit | Project Settings | Package Manager | Enable Preview Packages
+- Window | Package Manager | Packages swith to Unity Registry | search XR | Install XR Interaction ToolKit
 - Click Yes for the warning and Unity will restart
 - Right click In the Hierarchy panel, XR | Device-based | XR Origin, add it
 
@@ -58,8 +60,11 @@ Notice the Main Camera will be deleted automaticlly, Build & Run again.
 ![](images/VR_app_controller_showing.jpg)
 
 
-At this stage, we have a VR app, bu the Device-based XR Origin(known as XR Rig in older version of XR Interaction ToolKit) is not the best choice. See the more formal way to [get input from Oculus Quest in Unity](2_Unity_Oculus_Quest_input.md).
+At this stage, we have a VR app, and using the Device-based XR Origin(known as XR Rig in older version of XR Interaction ToolKit) to visulize the controller. However, using Action-based XR Rig is a better chocie, before trying to set Action-based XR Rig, we can first set Auto Complete and debug work.
 
+
+- [Auto-Complete and Debug](2_hello_auto_complete_and_debug.md)
+- Action Based XR Rig
 
 
 
