@@ -8,6 +8,7 @@ Showing how to setup Oculus Quest development with Unity on Mac platform using t
 - [Action Based XR Rig and Controller Input](3_action_based_xr_rig.md)
 - [Oculus Integration](4_oculus_integration.md)
 - [Unity And C# Basic Concepts](5_unity_and_c_sharp_concepts.md)
+- [VR 101 Balloon Shotting](6_VR_101.md)
 
 
 
