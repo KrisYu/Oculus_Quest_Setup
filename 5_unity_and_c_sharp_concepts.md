@@ -12,13 +12,14 @@ Scene is the scene, it is where we place everything.
 
 > Every object in your game is a GameObject, from characters and collectible items to lights, cameras and special effects. However, a GameObject can’t do anything on its own; you need to give it properties before it can become a character, an environment, or a special effect.
 
+When we choose a GameObject, we can see the attribute on the Inspector, we can modify the attributes and attach script to it.
 
-We have created GameObject and attached script to it before.
- 
+We can also create empty GameObject and attach script to it, thus it will also run in the scene.
+
 
 ## Script
 
-Script is C#, by default is has two methods, we need to attach Script to GameObject, it can be a empty GameObject in the scene, and the methods inside the script will be executed.
+Script is C#, by default is has two methods, we need to attach Script to GameObject, it can be any GameObject(including empty ones), and the methods inside the script will be executed.
 
 ```
 using UnityEngine;
