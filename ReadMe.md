@@ -9,6 +9,7 @@ Showing how to setup Oculus Quest development with Unity on Mac platform using t
 - [Oculus Integration](4_oculus_integration.md)
 - [Unity And C# Basic Concepts](5_unity_and_c_sharp_concepts.md)
 - [VR 101 Balloon Shotting](6_VR_101.md)
+- [VR Grab](7_VR_grab.md)
 
 
 
